@@ -1,0 +1,9 @@
+{
+    "port": "8083",
+    "host": "mqtts://ovs.kontakt.io",
+    "clientId": "Ajain12345678",
+    "username": "testAnshul",
+    "password": "ombZgXHWiLpmVacWQRHvqokfWrpThLTR",
+    "rejectUnauthorized": false,
+    "subscribefile": "/stream/309ce37d-bfd2-45b0-ab23-8bfe1ff98826/presence"
+}
