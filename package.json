@@ -4,9 +4,8 @@
   "description": "REST API for node to kontakt beacons",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start_azure_debug": "node --inspect=0.0.0.0:$APPSVC_TUNNEL_PORT index.js"
-  },
+    "start": "node index.js"
+    },
   "repository": {
     "type": "git",
     "url": "https://github.com/jainkanshul/beacon.git"
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/wonderdogone/node-kontakt.io",
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "body-parser": "^1.18.3",
     "dateformat": "^3.0.3",
     "express": "4.13.4",
@@ -33,6 +33,7 @@
     "mysql": "^2.16.0",
     "mysql2": "^1.3.5",
     "request": "2.55.0",
+    "sendgrid": "^5.2.3",
     "socket.io": "^2.1.0",
     "system-timezone": "0.0.3"
   }
